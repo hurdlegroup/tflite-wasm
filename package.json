@@ -1,0 +1,36 @@
+{
+  "name": "@hurdlegroup/tflite-wasm",
+  "version": "0.0.0-development",
+  "description": "TFlite sub-module compiled with emscripten as web assembly module",
+  "main": "./dist/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hurdlegroup/tflite-wasm"
+  },
+  "maintainers": [
+    {
+      "name": "Daniel McAssey",
+      "email": "daniel.mcassey@hurdle.live"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/hurdlegroup/tflite-wasm/issues"
+  },
+  "homepage": "https://github.com/hurdlegroup/tflite-wasm",
+  "dependencies": {},
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.2",
+    "@semantic-release/npm": "^8.0.3"
+  },
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ]
+}

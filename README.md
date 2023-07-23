@@ -1,2 +1,2 @@
-# tflite-wasm
+# tflite WASM models
 TFLite WASM model
